@@ -10,11 +10,12 @@ export default function App() {
       .then((data) => {
         setstates(data.data);
       });
+    
   };
 
   useEffect(() => {
     fetchData();
-  }, [states]);
+  }, []);
   return (
     <div className="App">
       <div class="banner">
