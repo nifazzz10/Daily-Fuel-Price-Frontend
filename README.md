@@ -12,7 +12,7 @@ Daily Fuel Price In India
 
 ## Intro To The Project
 
-This is an site where API is not fetched on any Site ,this site is web scrapped using flask and frontend part is
+This is an site where API is not fetched on any Site ,this site is web scrapped using flask and frontend part is done using React JS
 
 ## Reference
   As we said this site is not fetched by any pre-build api's 
