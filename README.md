@@ -1,5 +1,5 @@
 
-##Daily Fuel Price In India
+Daily Fuel Price In India
 
 
 
