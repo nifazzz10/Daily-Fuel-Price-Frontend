@@ -9,14 +9,12 @@ export default function App() {
       .get("https://dailyfuelpricebackendapi.onrender.com/")
       .then((data) => {
         setstates(data.data);
-        console.log(data.data);
       });
   };
-  console.log("d", states);
 
   useEffect(() => {
     fetchData();
-  }, []);
+  }, [states]);
   return (
     <div className="App">
       <div class="banner">
